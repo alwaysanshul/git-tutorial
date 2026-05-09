@@ -29,7 +29,7 @@ Generate a ssh key locally
 ```
 ssh-keygen -t rsa -b 4096 -C "abc@gmail.com"
 ```
-key.pub will be uploaded using ```cat key.pub```, which is okay to be public <br>
+key.pub will be uploaded, can be read by using ```cat key.pub```, which is okay to be public <br>
 Only the private key could have generated the public key.<br>
 <br>
 Start ssh-agent:
